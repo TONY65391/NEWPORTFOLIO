@@ -2,11 +2,12 @@ import { FaHtml5, FaReact } from "react-icons/fa"
 import Heading from "./Heading.jsx"
 import Lang from "./Lang.jsx"
 import { RiFirebaseFill, RiNextjsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri"
-import { DiCss3, DiDjango, DiLaravel, DiNodejs, DiPhp, DiPython } from "react-icons/di"
+import { DiCss3, DiDjango, DiGithub, DiLaravel, DiNodejs, DiNpm, DiPhp, DiPython } from "react-icons/di"
 import { IoLogoJavascript } from "react-icons/io"
 import { BsBootstrapFill } from "react-icons/bs"
-import { BiLogoTypescript } from "react-icons/bi"
-import { SiExpress } from "react-icons/si"
+import { BiLogoTypescript, BiLogoVisualStudio } from "react-icons/bi"
+import { SiExpress, SiMongodb, SiMysql, SiPostgresql, SiPostman, SiSqlite } from "react-icons/si"
+import { PiFigmaLogoFill, PiFramerLogoFill } from "react-icons/pi"
 
 export default function TechStack(){
     return(
@@ -41,6 +42,23 @@ export default function TechStack(){
                     <Lang tech={<RiSupabaseFill className="ICON text-green-400"/>} name="Supabase" />
                     <Lang tech={<RiFirebaseFill className="ICON text-orange-500"/>} name="Firebase" />   
                     <Lang tech={<RiNextjsFill className="ICON"/>} name="Next.js" />                 
+                </div>
+            </div>
+
+            <div className="rounded-b-4xl md:w-[95%] -mt-1 mx-auto md:p-9 p-6 bg-[rgb(26,25,25)]">
+                <h3 className="FONT md:text-5xl text-3xl mt-4">Database & Tools</h3>
+
+                <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:justify-between md:justify-center justify-between gap-7">
+                    <Lang tech={<SiSqlite className="ICON text-blue-500" />} name="SQL" />
+                    <Lang tech={<SiMysql className="ICON text-orange-300"/>} name="MySQL" />
+                    <Lang tech={<SiPostgresql className="ICON text-blue-500"/>} name="PostgreSQL" />
+                    <Lang tech={<SiMongodb className="ICON text-green-500"/>} name="MongoDB" />
+                    <Lang tech={<BiLogoVisualStudio className="ICON text-blue-500"/>} name="VS Code" />
+                    <Lang tech={<DiGithub className="ICON"/>} name="Github" />
+                    <Lang tech={<DiNpm className="ICON text-red-400"/>} name="NPM" />
+                    <Lang tech={<SiPostman className="ICON text-orange-500"/>} name="Postman" />                   
+                    <Lang tech={<PiFigmaLogoFill className="ICON text-blue-400"/>} name="Figma" />                 
+                    <Lang tech={<PiFramerLogoFill className="ICON"/>} name="Framer" />                 
                 </div>
             </div>
         </section>
