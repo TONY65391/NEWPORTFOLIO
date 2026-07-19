@@ -40,6 +40,16 @@ body{
 .TECHWRAP{
     display: flex;
     gap: 10px;
-    flex-flow: row wrap;
-    
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+}
+.ICON{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width:768px) {
+    .ICON{
+        width: 60px;
+        height: 60px;
+    }    
 }

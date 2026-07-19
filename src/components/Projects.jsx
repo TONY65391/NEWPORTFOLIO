@@ -15,11 +15,11 @@ export default function Projects(){
 
                 <Project src={Chandos} role='FrontEnd Developer' title="CHANDOS Construction | Construction Website" desc="A construction website displaying the arts and works of the construction company. Built in Public" display6="hidden" display7="hidden" display8="hidden" display9="hidden" display10="hidden" display11="hidden" display12="hidden" display13="hidden"/>
 
-                <Project src={Cryptgo} display="hidden" role="Full-Stack Developer" title="CRYPTGO Exchange | Cryptocurreny Website" desc="A cryptocurrency website where users can convert digital currencies into hard currency at a relatively low rate." display5="hidden" display6="hidden" display10="hidden" display12="hidden" display13="hidden"/>
+                <Project src={Cryptgo} role="Full-Stack Developer" title="CRYPTGO Exchange | Cryptocurreny Website" desc="A cryptocurrency website where users can convert digital currencies into hard currency at a relatively low rate." display5="hidden" display6="hidden" display10="hidden" display12="hidden" display13="hidden"/>
 
                 <Project src={Feane} role="Full-Stack Developer" title="FEANE's Restaurant and Eatery | Restaurant Website" desc="A restaurant website where users can place food orders, view menu and pay directly online. API Integration. Built in Public." display1="hidden" display7="hidden" display8="hidden" display9="hidden" display11="hidden"  display12="hidden"/>
 
-                <Project src={Moviebox} display="hidden" role="Full-Stack Developer" title="MOVIEBOX | Movies and Entertainment" desc="A movie streaming website to watch, view, subscribe and download action, Sci-Fi, fiction, nollywood, hollywood movies. API Integration." display5="hidden" display6="hidden" display10="hidden"  display12="hidden" display13="hidden"/>
+                <Project src={Moviebox} role="Full-Stack Developer" title="MOVIEBOX | Movies and Entertainment" desc="A movie streaming website to watch, view, subscribe and download action, Sci-Fi, fiction, nollywood, hollywood movies. API Integration." display5="hidden" display6="hidden" display10="hidden"  display12="hidden" display13="hidden"/>
 
                 <Project src={Vla} role="Full-Stack Developer" title="Vertical Limit Academy | School Website" desc="A school website with admin dashboard where parents and authorized personnels can view, past and present student results using a unique ID. Built in Public." display1="hidden" display7="hidden" display8="hidden" display11="hidden" />
 
