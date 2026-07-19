@@ -2,12 +2,12 @@ import { FaHtml5, FaReact } from "react-icons/fa"
 import Heading from "./Heading.jsx"
 import Lang from "./Lang.jsx"
 import { RiFirebaseFill, RiNextjsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri"
-import { DiCss3, DiDjango, DiGithub, DiLaravel, DiNodejs, DiNpm, DiPhp, DiPython } from "react-icons/di"
+import { DiCss3, DiDjango, DiLaravel, DiNodejs, DiNpm, DiPhp, DiPython } from "react-icons/di"
 import { IoLogoJavascript } from "react-icons/io"
 import { BsBootstrapFill } from "react-icons/bs"
 import { BiLogoTypescript, BiLogoVisualStudio } from "react-icons/bi"
-import { SiExpress, SiMongodb, SiMysql, SiPostgresql, SiPostman, SiSqlite } from "react-icons/si"
-import { PiFigmaLogoFill, PiFramerLogoFill } from "react-icons/pi"
+import { SiExpress, SiMongodb, SiMysql, SiPostgresql, SiSqlite, SiVite } from "react-icons/si"
+import { PiFigmaLogoFill, PiFramerLogoFill, PiGithubLogoFill } from "react-icons/pi"
 
 export default function TechStack(){
     return(
@@ -54,11 +54,11 @@ export default function TechStack(){
                     <Lang tech={<SiPostgresql className="ICON text-blue-500"/>} name="PostgreSQL" />
                     <Lang tech={<SiMongodb className="ICON text-green-500"/>} name="MongoDB" />
                     <Lang tech={<BiLogoVisualStudio className="ICON text-blue-500"/>} name="VS Code" />
-                    <Lang tech={<DiGithub className="ICON"/>} name="Github" />
+                    <Lang tech={<PiGithubLogoFill className="ICON"/>} name="Github" />
                     <Lang tech={<DiNpm className="ICON text-red-400"/>} name="NPM" />
-                    <Lang tech={<SiPostman className="ICON text-orange-500"/>} name="Postman" />                   
+                    <Lang tech={<SiVite className="ICON text-purple-700"/>} name="Vite" /> 
                     <Lang tech={<PiFigmaLogoFill className="ICON text-blue-400"/>} name="Figma" />                 
-                    <Lang tech={<PiFramerLogoFill className="ICON"/>} name="Framer" />                 
+                    <Lang tech={<PiFramerLogoFill className="ICON"/>} name="Framer" />  
                 </div>
             </div>
         </section>

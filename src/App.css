@@ -10,6 +10,7 @@ body{
     width: min(1600px, 100%);
     margin: auto;
 }
+section{border: 1px solid transparent;}
 .HERO{
     background-image: url("../public/portfolio_favicon.png");
     background-size: cover;
@@ -20,12 +21,6 @@ body{
 .HEADER{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    border: none;
-    position: fixed;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 1px solid rgba(245, 222, 179, 0.322);
 }
 .HEADING{
   font-family: "Lobster Two", sans-serif;
