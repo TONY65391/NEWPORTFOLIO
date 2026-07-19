@@ -15,7 +15,7 @@ import Tech from "./Tech";
 
 export default function Project(props){
     return(
-        <Link to={props.url} className={`PROJECT ${props.display} mx-auto bg-gray-500 md:rounded-4xl max-w-full rounded-2xl overflow-hidden p-3 md:p-4`}>
+        <Link to={props.url} className={`bg-[rgb(26,25,25)] ${props.display} mx-auto md:rounded-4xl max-w-full rounded-2xl overflow-hidden p-3 md:p-4`}>
             <div>
                 <img src={`${props.src}`} alt={`${props.name}`} className="rounded-2xl md:rounded-4xl" />
 
