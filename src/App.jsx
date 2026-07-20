@@ -10,6 +10,12 @@ function App(){
   const [dark, setDarkMode] = useState(true)
 
   const toggleDarkMode = () => {
+    if (dark){
+      document.body.classList.remove("dark");
+    }
+    else{
+      document.body.classList.add("dark")
+    }
     setDarkMode(!dark)
   }
 
