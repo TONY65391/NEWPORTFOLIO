@@ -15,15 +15,15 @@ import Tech from "./Tech";
 
 export default function Project(props){
     return(
-        <Link to={props.url} className={`bg-[rgb(26,25,25)] ${props.display} mx-auto md:rounded-4xl max-w-full rounded-2xl overflow-hidden p-3 md:p-4`}>
+        <Link to={props.url} className={`${ props.theme ? "bg-[rgb(26,25,25)] text-white" : "bg-[rgba(209,206,206,1)] text-black"  } ${props.display} mx-auto md:rounded-4xl max-w-full rounded-2xl overflow-hidden p-3 md:p-4`}>
             <div>
                 <img src={`${props.src}`} alt={`${props.name}`} className="rounded-2xl md:rounded-4xl" />
 
                 <div className="px-3 md:px-5">
                     <div>
-                        <h4 className="flex items-center space-x-1 my-4 opacity-40"><span><TfiWorld/></span> <span>Web App |</span> <span>{props.role}</span></h4>
+                        <h4 className={`${ props.theme ? "opacity-40" : "opacity-70" } flex items-center space-x-1 my-4`}><span><TfiWorld/></span> <span>Web App |</span> <span>{props.role}</span></h4>
                         <h3 className="FONT text-2xl my-4">{props.title}</h3>
-                        <p className="opacity-40 md:w-3/4">{props.desc}</p>
+                        <p className={`${ props.theme ? "opacity-40" : "opacity-70" } md:w-3/4`}>{props.desc}</p>
 
                         <div className="TECHWRAP my-5 md:max-w-4/5">
                             <Tech className="hidden" tech="React" techIcon={<FaReact/>} display={props.display1} />
