@@ -14,8 +14,8 @@ export default function TechStack({ theme }){
         <section className={`${ theme ? "bg-black" : "bg-white" }`}>
             <Heading heading="Tech Stack." theme={theme} headingAlign="center" subHeading="Modern Technologies I Use:" subAlign="center" />
 
-            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-[rgba(209,206,206,1)]" } rounded-t-4xl md:w-[95%] mx-auto md:p-9 p-6`}>
-                <h3 className={`${ theme ? "text-white" : "text-black" } FONT md:text-5xl text-3xl mt-4`}>Frontend</h3>
+            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-black" } rounded-t-4xl md:w-[95%] mx-auto md:p-9 p-6`}>
+                <h3 className={`text-white FONT md:text-5xl text-3xl mt-4`}>Frontend</h3>
 
                 <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:justify-between md:justify-center justify-between gap-7">
                     <Lang tech={<FaHtml5 className="ICON text-orange-400" />} name="HTML5" theme={theme} />
@@ -29,8 +29,8 @@ export default function TechStack({ theme }){
                 </div>
             </div>
 
-            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-[rgba(209,206,206,1)]" } md:w-[95%] -mt-1 mx-auto md:p-9 p-6`}>
-                <h3 className={`${ theme ? "text-white" : "text-black" } FONT md:text-5xl text-3xl mt-4`}>Backend</h3>
+            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-black" } md:w-[95%] -mt-1 mx-auto md:p-9 p-6`}>
+                <h3 className={`text-white FONT md:text-5xl text-3xl mt-4`}>Backend</h3>
 
                 <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:justify-between md:justify-center justify-between gap-7">
                     <Lang tech={<DiPython className="ICON text-blue-500" />} name="Python" theme={theme} />
@@ -45,8 +45,8 @@ export default function TechStack({ theme }){
                 </div>
             </div>
 
-            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-[rgba(209,206,206,1)]" } rounded-b-4xl mb-5 md:w-[95%] -mt-1 mx-auto md:p-9 p-6`}>
-                <h3 className={`${ theme ? "text-white" : "text-black" } FONT md:text-5xl text-3xl mt-4`}>Database & Tools</h3>
+            <div className={`${ theme ? "bg-[rgb(26,25,25)]" : "bg-black" } rounded-b-4xl mb-5 md:w-[95%] -mt-1 mx-auto md:p-9 p-6`}>
+                <h3 className={`text-white FONT md:text-5xl text-3xl mt-4`}>Database & Tools</h3>
 
                 <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:justify-between md:justify-center justify-between gap-7">
                     <Lang tech={<SiSqlite className="ICON text-blue-500" />} name="SQL" theme={theme} />
