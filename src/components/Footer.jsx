@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export default function Footer({ theme }){
     return(
-        <footer className={`${ theme ? "bg-black" : "bg-white text-black" } border-t border-gray-800 pt-9`}>
+        <footer className={`${ theme ? "bg-black text-white" : "bg-white text-black" } border-t border-gray-800 pt-9`}>
             <div className={`flex flex-col gap-9 md:grid md:grid-cols-2 lg:grid-cols-3 md:w-[95%] mx-auto px-4`}>
                 <div>
                     <h4 className="text-3xl">Umofia Anthony Inemesit</h4>

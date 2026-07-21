@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx"
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
+import Developer from "./assets/projects/Inemesit.png"
 
 function App(){
 
@@ -24,7 +25,7 @@ function App(){
         <Header theme={dark} setTheme={toggleDarkMode} />
         <Routes>
           <Route path="/" element={<Home theme={dark} />}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/about" element={<About theme={dark} src={Developer}/>}/>
         </Routes>
     </>
   )
