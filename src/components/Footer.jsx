@@ -2,7 +2,8 @@ import { PiGithubLogoFill, PiTiktokLogoFill, PiWhatsappLogoFill } from "react-ic
 import { RiTwitterXFill } from "react-icons/ri"
 import { Link } from "react-router-dom"
 
-export default function Footer({ theme }){
+export default function Footer({ theme, setPath }){
+
     return(
         <footer className={`${ theme ? "bg-black text-white" : "bg-white text-black" } border-t border-gray-800 pt-9`}>
             <div className={`flex flex-col gap-9 md:grid md:grid-cols-2 lg:grid-cols-3 md:w-[95%] mx-auto px-4`}>
@@ -14,10 +15,10 @@ export default function Footer({ theme }){
                 <div>
                     <h4 className="text-3xl">Quick Links</h4>
                     <div className="flex flex-col gap-4 mt-7 FONT opacity-70">
-                        <Link to={'/'} className="hover:opacity-90">Home</Link>
-                        <Link to={'/about'}>About</Link>
-                        <Link to={'/notes'}>Notes</Link>
-                        <Link to={'/contact'}>Contact</Link>
+                        <Link to={'/'} onClick={() => { setPath('/') }} className="hover:opacity-90">Home</Link>
+                        <Link to={'/about'} onClick={() => { setPath('/about') }} >About</Link>
+                        <Link to={'/notes'} onClick={() => { setPath('/notes') }} >Notes</Link>
+                        <Link to={'/contact'} onClick={() => { setPath('/contact') }} >Contact</Link>
                     </div>
                 </div>
 

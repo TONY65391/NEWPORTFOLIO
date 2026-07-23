@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+*,html{scroll-behavior: smooth;}
 *{
     -webkit-user-select: none;
     user-select: none;
@@ -43,8 +43,8 @@ section{border: 1px solid transparent;}
     /* flex-flow: row wrap; */
 }
 .IMG{
-    border-top-right-radius: 180px;
-    border-top-left-radius: 180px;
+    border-top-right-radius: 280px;
+    border-top-left-radius: 280px;
     /* filter: grayscale(80%); */
 }
 

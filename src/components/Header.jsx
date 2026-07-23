@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom"
 import { FaRegMoon } from "react-icons/fa";
 import { BsSunFill } from "react-icons/bs";
-import { useState } from "react";
 
-export default function Header({theme, setTheme}){
-
-    const [page, setPage] = useState("/")
+export default function Header({theme, setTheme, page, setPage}){
 
     return(
         <header className={`HEADER z-2 ${ theme ? "border-rgba(245,222,179,0.322) border-white" : "border-black bg-white" } border-1 flex p-2 rounded-4xl w-fit fixed left-1/2 -translate-x-1/2 top-5`}>
